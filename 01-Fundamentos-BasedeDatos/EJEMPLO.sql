@@ -23,3 +23,23 @@ VALUES (3, 'JESUS', 'BERNARDO', '2007-01-18', 'CONOCIDA');
 
 SELECT *
 FROM alumno;
+
+-- Razon de cardinalidad 1:N
+
+CREATE TABLE categoria2(
+	categoriaId INT NOT NULL,
+	nombre VARCHAR(20) NOT NULL,
+	CONSTRAINT pk_Categoria2
+	PRIMARY KEY (categoriaId)
+);
+
+CREATE TABLE producto2(
+	productoid INT NOT NULL PRIMARY KEY,
+	nombre VARCHAR(35) NOT NULL,
+	existencia INT NOT NULL,
+	precio DECIMAL(10, 2) NOT NULL,
+	categoriaId INT,
+	CONSTRAINT fk_producto2_categoria2
+	FOREIGN KEY (categoriaId)
+	REFERENCES categoria2(categoriaId)
+);
