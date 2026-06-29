@@ -28,7 +28,7 @@ Un hospital registra informacion de sus pacientes:
 - Determinar cardinalidad de las relaciones
 - Determinar la participacion de las entidades en las relaciones
 
-![Ejercicio 1](../img/ejercicio1Dia.jpg )
+![Ejercicio 1](../img/EntidadRelacion/ejercicio1Dia.jpg )
 
 ## Ejercicio 2
 
@@ -53,7 +53,7 @@ Una universidad administra profesores y cursos;
 3. Puede existir un profesor que actualmente ni imparta cursos
 4. Todo curso debe estar asignado a un profesor
 
-![Ejercicio 2](../img/Ejercicio2B.jpg)
+![Ejercicio 2](../img/EntidadRelacion/Ejercicio2B.jpg)
 
 ## Ejercicio 3
 
@@ -83,7 +83,7 @@ Una escuela administra alumnos y materias
     
 Nota: a la relacion nombrarla inscribe
 
-![Ejercicio 3](../img/ejercicio3B.jpg)
+![Ejercicio 3](../img/EntidadRelacion/ejercicio3B.jpg)
 
 ## Ejercicio 4
 
@@ -117,7 +117,7 @@ Una empresa dedicada a la ventas al por mayor necesita registrar lo siguiente:
 8. el detalle del pedido no existe sin producto
 9. el detalle almacena la cantidad y el precio de venta
 
-![Ejercicio 4](../img/Ejemplo4B.png)
+![Ejercicio 4](../img/EntidadRelacion/Ejemplo4B.png)
 
 ## Ejercicio 5
 Una compañía necesita registrar la siguiente información:
@@ -175,4 +175,4 @@ Una compañía necesita registrar la siguiente información:
 17. Cada dependiente pertenece a un solo empleado.
 18. De cada dependiente se registra su primer nombre, sexo, fecha de nacimiento y relación con el empleado.
 
-![Ejercicio 5](../img/ejercicio5B.jpeg)
+![Ejercicio 5](../img/EntidadRelacion/ejercicio5B.jpeg)
