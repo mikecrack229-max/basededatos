@@ -112,27 +112,6 @@ TODO: Documentar las siguientes tablas
 
 ![Ejercicio Relacional](/img/Relacional/EjercicioRelacional5.jpg)
 
-# Diccionario de datos de la base de datos Clínica
-
-## 1. Información General
-
-| Elemento | Valor |
-|----------|-------|
-| Proyecto | Clínica |
-| Versión | 1.0 |
-| Fecha | Junio 2026 |
-| Elaboró | Ing. Jesús Eduardo Bernardo Hernández |
-| SGBD | SQL Server |
-
-## 2. Descripción de la base de datos
-
-La base de datos administra:
-
-- Paciente
-- Expediente
-
-Permite controlar la información básica de los pacientes y el expediente médico asignado a cada uno.
-
 ## 3. Catálogo de Restricciones Utilizadas
 
 | Catálogo | Significado |
