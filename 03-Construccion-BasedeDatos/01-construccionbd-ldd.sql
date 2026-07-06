@@ -79,12 +79,12 @@ CREATE TABLE materia (
 );
 
 CREATE TABLE materia_2 (
-	materia_id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	materia_id INT NOT NULL IDENTITY(1,1),
 	correo VARCHAR (50) NOT NULL,
-		CONSTRAINT pk_materia_2
-		PRIMARY KEY (materia_id),
-		CONSTRAINT uq_materia2_correo
-		UNIQUE (correo)
+	CONSTRAINT pk_materia_2
+	PRIMARY KEY (materia_id),
+	CONSTRAINT uq_materia2_correo
+	UNIQUE (correo)
 );
 GO
 
@@ -94,3 +94,5 @@ VALUES ('correo')
 INSERT INTO materia_2
 VALUES ('correo2')
 
+SELECT * 
+FROM materia_2;
