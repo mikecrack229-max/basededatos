@@ -120,3 +120,13 @@ DROP
 ```
 
 investigar comandos emet 
+
+### Alter table
+
+permite moificar una tabla existente puede:
+
+- Agregar una columnas
+- Eliminar una columnas
+- Modificar una columnas
+- Agregar una restricciones
+- Eliminar una restricciones
