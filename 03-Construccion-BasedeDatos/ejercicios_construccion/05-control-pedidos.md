@@ -78,3 +78,4 @@ CREATE TABLE detalle_pedido (
 GO
 
 ```
+![DiagramaComercializadora](../../img/construccion/05-control-pedidos.png)

@@ -139,4 +139,4 @@ ADD CONSTRAINT fk_cliente_representante
 FOREIGN KEY (cliente_id)
 REFERENCES representante (representante_id);
 ```
-![DiagramaComercializadora](../../img/construccion/08-Diagrama-comercializadora.png)
+![DiagramaComercializadora](../../img/construccion/09-Diagrama-comercializadora.png)

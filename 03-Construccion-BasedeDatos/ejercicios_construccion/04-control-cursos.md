@@ -53,3 +53,5 @@ CREATE TABLE especialidad(
 GO
 
 ```
+
+![DiagramaComercializadora](../../img/construccion/04-control-cursos.png)
