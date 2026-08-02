@@ -197,3 +197,5 @@ CREATE TABLE participa (
 );
 GO
 ```
+
+![DiagramaComercializadora](../../img/construccion/08-sistema-academico.png)

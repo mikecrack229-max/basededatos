@@ -39,3 +39,5 @@ CREATE TABLE expediente(
 );
 GO
 ```
+
+![DiagramaComercializadora](../../img/construccion/02-clinica.png)
