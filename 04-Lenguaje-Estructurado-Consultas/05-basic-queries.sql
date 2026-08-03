@@ -216,3 +216,67 @@ ORDER BY descuento DESC;
 
 
 --TODO: distinc con mas de un campo
+--Cuando el distinc se utiliza con varias columnas se evalua la 
+-- combinacion completa
+
+SELECT DISTINCT
+	id_categoria,
+	id_producto
+FROM productos
+ORDER BY id_categoria DESC, id_producto ASC;
+GO
+
+SELECT 
+	id_cliente,
+	id_empleado
+FROM ventas
+ORDER BY 1 DESC, 2 DESC;
+GO
+
+SELECT DISTINCT
+	id_cliente,
+	id_empleado
+FROM ventas
+ORDER BY 1 DESC, 2 DESC;
+GO
+
+--USO DE TOP
+--Limita la cantidad de filas devueltas por una consulta
+
+SELECT TOP (6)
+	id_producto,
+	codigo,
+	nombre,
+	precio
+FROM productos
+ORDER BY precio DESC;
+
+SELECT TOP (10)
+	nombre
+FROM clientes;
+
+-- TOP con expresiones calculdas
+SELECT TOP (7)
+	codigo,
+	nombre,
+	precio,
+	existencia,
+	(precio * existencia) AS 'valor inventario'
+FROM productos
+
+-- TOP CON PORCENTAJE
+
+--SQL server permite limitar el resultado mediante un porcentaje
+
+SELECT TOP (10) PERCENT
+	codigo,
+	nombre,
+	precio,
+	existencia,
+	(precio * existencia) AS 'valor inventario'
+FROM productos
+
+-- Combinar DISTINCT con el top
+SELECT DISTINCT TOP (3)
+	descuento
+FROM detalle_ventas;
