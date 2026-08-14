@@ -147,3 +147,5 @@ CREATE TABLE dependent (
 );
 GO
 ```
+
+![DiagramaComercializadora](../../img/construccion/06-empresa-ejemplo-1.png)

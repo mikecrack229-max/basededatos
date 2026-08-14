@@ -225,3 +225,4 @@ CREATE TABLE inscripcion (
 GO
 
 ```
+![DiagramaComercializadora](../../img/construccion/01-control-escolar.png)

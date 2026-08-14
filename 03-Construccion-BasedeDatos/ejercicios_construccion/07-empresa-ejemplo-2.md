@@ -159,3 +159,5 @@ CREATE TABLE work_on (
 );
 GO
 ```
+
+![DiagramaComercializadora](../../img/construccion/07-empresa-ejemplo-2.png)

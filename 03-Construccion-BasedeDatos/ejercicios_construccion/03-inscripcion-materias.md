@@ -68,3 +68,5 @@ CREATE TABLE inscripcion (
 );
 GO
 ```
+
+![DiagramaComercializadora](../../img/construccion/03-inscripcion-materias.png)
